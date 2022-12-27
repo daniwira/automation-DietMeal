@@ -1,0 +1,273 @@
+[35m[Appium][39m Available drivers:
+[35m[Appium][39m   - uiautomator2@2.12.0 (automationName 'UiAutomator2')
+[35m[Appium][39m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"POCO M3","appium:platformVersion":"11.0","appium:app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"POCO M3","appium:platformVersion":"11.0","appium:app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true}}[39m
+[debug] [38;5;16m[AppiumDriver@092f][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"POCO M3","appium:platformVersion":"11.0","appium:app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true},null,{"alwaysMatch":{"platformName":"Android","appium:automationName":"UiAutomator2","appium:deviceName":"POCO M3","appium:platformVersion":"11.0","appium:app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appium:appPackage":"com.fghilmany.dietmealapp","appium:appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","appium:noReset":true,"appium:forceAppLaunch":true},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@092f][0m Event 'newSessionRequested' logged at 1672133167778 (16:26:07 GMT+0700 (Western Indonesia Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@092f][0m Appium v2.0.0-beta.48 creating new AndroidUiautomator2Driver (v2.12.0) session
+[38;5;16m[AppiumDriver@092f][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@092f][0m Appium's BaseDriver version is 9.1.0
+[38;5;16m[AppiumDriver@092f][0m AndroidUiautomator2Driver's BaseDriver version is 9.1.0
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m Creating session with W3C capabilities: {
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m   "alwaysMatch": {
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "platformName": "Android",
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:automationName": "UiAutomator2",
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:deviceName": "POCO M3",
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:platformVersion": "11.0",
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:app": "/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk",
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:appPackage": "com.fghilmany.dietmealapp",
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:appActivity": "com.fghilmany.dietmealapp.ui.main.MainActivity",
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:noReset": true,
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     "appium:forceAppLaunch": true
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m   },
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m   "firstMatch": [
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m     {}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m   ]
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb][0m }
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Session created with session id: bf2bc68e-cd72-4c2c-a961-4de3c10c824f
+[38;5;48m[BaseDriver][0m Using local app '/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Checking whether app is actually present
+[38;5;64m[ADB][0m Found 2 'build-tools' folders under '/Users/apple/Library/Android/sdk' (newest first):
+[38;5;64m[ADB][0m     /Users/apple/Library/Android/sdk/build-tools/33.0.0
+[38;5;64m[ADB][0m     /Users/apple/Library/Android/sdk/build-tools/30.0.3
+[38;5;64m[ADB][0m Using 'adb' from '/Users/apple/Library/Android/sdk/platform-tools/adb'
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[38;5;80m[AndroidDriver][0m Retrieving device list
+[debug] [38;5;64m[ADB][0m Trying to find a connected android device
+[debug] [38;5;64m[ADB][0m Getting connected devices
+[debug] [38;5;64m[ADB][0m Connected devices: [{"udid":"ibbupjtcugqw8xx4","state":"device"}]
+[38;5;80m[AndroidDriver][0m Looking for a device with Android '11.0.0'
+[debug] [38;5;64m[ADB][0m Setting device id to ibbupjtcugqw8xx4
+[38;5;64m[ADB][0m Getting device platform version
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell getprop ro.build.version.release'
+[debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.release': 11
+[38;5;80m[AndroidDriver][0m Using device: ibbupjtcugqw8xx4
+[38;5;64m[ADB][0m Using 'adb' from '/Users/apple/Library/Android/sdk/platform-tools/adb'
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+[debug] [38;5;64m[ADB][0m Setting device id to ibbupjtcugqw8xx4
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell getprop ro.build.version.sdk'
+[debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.sdk': 30
+[38;5;64m[ADB][0m Getting device platform version
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell getprop ro.build.version.release'
+[debug] [38;5;64m[ADB][0m Current device property 'ro.build.version.release': 11
+[debug] [38;5;64m[ADB][0m Device API level: 30
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Relaxing hidden api policy
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 wait-for-device'
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell echo ping'
+[debug] [38;5;80m[AndroidDriver][0m Pushing settings apk to device...
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.settings
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys package io.appium.settings'
+[debug] [38;5;64m[ADB][0m 'io.appium.settings' is installed
+[debug] [38;5;64m[ADB][0m Getting package info for 'io.appium.settings'
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys package io.appium.settings'
+[debug] [38;5;64m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('4.2.4' >= '4.2.4')
+[debug] [38;5;64m[ADB][0m There is no need to install/upgrade '/Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+[debug] [38;5;64m[ADB][0m Getting IDs of all 'io.appium.settings' processes
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell 'pgrep --help; echo $?''
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[debug] [38;5;80m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell appops set io.appium.settings android:mock_location allow'
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+[38;5;80m[AndroidDriver][0m Unable to persist mock location app id 'io.appium.settings': adb.pushFile is not a function
+[debug] [38;5;96m[Logcat][0m Starting logs capture with command: /Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 logcat -v threadtime
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[debug] [38;5;64m[ADB][0m Forwarding system: 8200 to device: 6790
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 forward tcp:8200 tcp:6790'
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [38;5;64m[ADB][0m 'io.appium.uiautomator2.server' is installed
+[debug] [38;5;64m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [38;5;64m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.7.5' >= '5.7.5')
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [38;5;64m[ADB][0m Checking app cert for /Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.5.apk
+[38;5;64m[ADB][0m Using 'apksigner.jar' from '/Users/apple/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar'
+[debug] [38;5;64m[ADB][0m Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/apple/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.5.apk
+[debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [38;5;64m[ADB][0m 
+[debug] [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v5.7.5.apk'
+[38;5;64m[ADB][0m '/Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.5.apk' is signed with the default certificate
+[debug] [38;5;64m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [38;5;64m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[debug] [38;5;64m[ADB][0m Checking app cert for /Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [38;5;64m[ADB][0m Starting apksigner: /Library/Java/JavaVirtualMachines/jdk-19.jdk/Contents/Home/bin/java -Xmx1024M -Xss1m -jar /Users/apple/Library/Android/sdk/build-tools/33.0.0/lib/apksigner.jar verify --print-certs /Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+[debug] [38;5;64m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [38;5;64m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [38;5;64m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [38;5;64m[ADB][0m 
+[debug] [38;5;64m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;64m[ADB][0m '/Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Server packages are not going to be (re)installed
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waiting up to 30000ms for services to be available
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell pm list instrumentation'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;64m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[debug] [38;5;64m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[debug] [38;5;64m[ADB][0m Getting install status for com.fghilmany.dietmealapp
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys package com.fghilmany.dietmealapp'
+[debug] [38;5;64m[ADB][0m 'com.fghilmany.dietmealapp' is installed
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m noReset has been requested and the app is already installed. Doing nothing
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Performing shallow cleanup of automation leftovers
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m No obsolete sessions have been detected (socket hang up)
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Starting UIAutomator2 server 5.7.5
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Using UIAutomator2 server from '/Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v5.7.5.apk' and test from '/Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [38;5;64m[ADB][0m Creating ADB subprocess with args: ["-P",5037,"-s","ibbupjtcugqw8xx4","shell","am","instrument","-w","-e","disableAnalytics",true,"io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m socket hang up
+[debug] [38;5;112m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m socket hang up
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m socket hang up
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m The initialization of the instrumentation process took 3169ms
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/session' to command name 'createSession'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"POCO M3","platformVersion":"11.0","app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true},"platformName":"Android","automationName":"UiAutomator2","deviceName":"ibbupjtcugqw8xx4","platformVersion":"11.0","app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true,"deviceUDID":"ibbupjtcugqw8xx4"}],"alwaysMatch":{}}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"POCO M3","platformVersion":"11.0","app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true},"platformName":"Android","automationName":"UiAutomator2","deviceName":"ibbupjtcugqw8xx4","platformVersion":"11.0","app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true,"deviceUDID":"ibbupjtcugqw8xx4"}],"alwaysMatch":{}},"sessionId":"d0eddde9-e12d-4...
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Determined the downstream protocol as 'W3C'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/appium/device/info] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":{"androidId":"747efca5e5064f7b","apiVersion":"30","bluetooth":{"state":"OFF"},"brand":"POCO","carrierName":"Tsel-PakaiMasker","displayDensity":440,"locale":"in_ID","manufacturer":"Xiaomi","model":"M2103K19PG","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":49000,"linkUpstreamBandwidthKbps":49000,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-57,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":0,"subtypeName":"","type":1,"typeName":"WIFI"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":30000,"linkUpstreamBandwidthKbps":15000,"networkCapabili...
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys window'
+[38;5;80m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Starting 'com.fghilmany.dietmealapp/com.fghilmany.dietmealapp.ui.main.MainActivity and waiting for 'com.fghilmany.dietmealapp/com.fghilmany.dietmealapp.ui.main.MainActivity'
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell am start -W -n com.fghilmany.dietmealapp/com.fghilmany.dietmealapp.ui.main.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/appium/device/pixel_ratio] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":2.75}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/appium/device/system_bars] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":{"statusBar":103}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/window/current/size] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":{"height":2167,"width":1080}}
+[38;5;16m[AppiumDriver@092f][0m New AndroidUiautomator2Driver session created successfully, session bf2bc68e-cd72-4c2c-a961-4de3c10c824f added to master session list
+[debug] [38;5;16m[AppiumDriver@092f][0m Event 'newSessionStarted' logged at 1672133180102 (16:26:20 GMT+0700 (Western Indonesia Time))
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Cached the protocol value 'W3C' for the new session bf2bc68e-cd72-4c2c-a961-4de3c10c824f
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","deviceName":"POCO M3","platformVersion":"11.0","app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true},"platformName":"Android","automationName":"UiAutomator2","deviceName":"ibbupjtcugqw8xx4","platformVersion":"11","app":"/Users/apple/Movies/automation-DietMeal/test/apk/Diet_meal.apk","appPackage":"com.fghilmany.dietmealapp","appActivity":"com.fghilmany.dietmealapp.ui.main.MainActivity","noReset":true,"forceAppLaunch":true,"deviceUDID":"ibbupjtcugqw8xx4","deviceApiLevel":30,"deviceScreenSize":"1080x2400","deviceScreenDensity":440,"deviceModel":"M2103K19PG","deviceManufacturer":...
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m12335 ms - 1193[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"-android uiautomator","value":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")"}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","bf2bc68e-cd72-4c2c-a961-4de3c10c824f"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waiting up to 0 ms for condition
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":false}
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/timeouts/implicit_wait[39m
+[38;5;0m[HTTP][0m [90m{"ms":6000}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Calling AppiumDriver.implicitWait() with args: [6000,"bf2bc68e-cd72-4c2c-a961-4de3c10c824f"]
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 404: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:70)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:267)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:261)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:68)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+[debug] [38;5;128m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Set implicit wait to 6000ms
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m     at AndroidUiautomator2Driver.findElOrEls (/Users/apple/Movies/automation-DietMeal/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.js:75:11)
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m     at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/apple/Movies/automation-DietMeal/node_modules/@appium/base-driver/lib/basedriver/commands/find.js:81:16)
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m     at AndroidUiautomator2Driver.findElement (/Users/apple/Movies/automation-DietMeal/node_modules/@appium/base-driver/lib/basedriver/commands/find.js:21:14)
+[38;5;0m[HTTP][0m [37m<-- POST /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element [39m[33m404[39m [90m270 ms - 839[39m
+[38;5;0m[HTTP][0m [90m[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Responding to client with driver.implicitWait() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/timeouts/implicit_wait [39m[32m200[39m [90m212 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"-android uiautomator","value":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")"}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","bf2bc68e-cd72-4c2c-a961-4de3c10c824f"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waiting up to 6000 ms for condition
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":true}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":[]}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waited for 51 ms so far
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":true}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":[]}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waited for 580 ms so far
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":true}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":[]}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waited for 1102 ms so far
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":true}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":[]}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waited for 1648 ms so far
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":true}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":[]}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waited for 2245 ms so far
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/elements] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":true}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":[{"ELEMENT":"00000000-0000-04c4-ffff-ffff0000000e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-04c4-ffff-ffff0000000e"}]}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-04c4-ffff-ffff0000000e","ELEMENT":"00000000-0000-04c4-ffff-ffff0000000e"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/elements [39m[32m200[39m [90m2898 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"-android uiautomator","value":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")"}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Calling AppiumDriver.findElement() with args: ["-android uiautomator","new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","bf2bc68e-cd72-4c2c-a961-4de3c10c824f"]
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Waiting up to 6000 ms for condition
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [POST /element] to [POST http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/element] with body: {"strategy":"-android uiautomator","selector":"new UiSelector().text(\"Welcome...\").className(\"android.widget.TextView\")","context":"","multiple":false}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":{"ELEMENT":"00000000-0000-04c4-ffff-ffff0000000e","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-04c4-ffff-ffff0000000e"}}
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-04c4-ffff-ffff0000000e","ELEMENT":"00000000-0000-04c4-ffff-ffff0000000e"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element [39m[32m200[39m [90m35 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element/00000000-0000-04c4-ffff-ffff0000000e/text[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element/00000000-0000-04c4-ffff-ffff0000000e/text' to command name 'getText'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [GET /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element/00000000-0000-04c4-ffff-ffff0000000e/text] to [GET http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101/element/00000000-0000-04c4-ffff-ffff0000000e/text] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":"Welcome..."}
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Replacing sessionId d0eddde9-e12d-41fa-a2cc-edb36d34c101 with bf2bc68e-cd72-4c2c-a961-4de3c10c824f
+[38;5;0m[HTTP][0m [37m<-- GET /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/element/00000000-0000-04c4-ffff-ffff0000000e/text [39m[32m200[39m [90m37 ms - 73[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/appium/app/close[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Calling AppiumDriver.closeApp() with args: ["bf2bc68e-cd72-4c2c-a961-4de3c10c824f"]
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell am force-stop com.fghilmany.dietmealapp'
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Calling AppiumDriver.deleteSession() with args: ["bf2bc68e-cd72-4c2c-a961-4de3c10c824f"]
+[debug] [38;5;16m[AppiumDriver@092f][0m Event 'quitSessionRequested' logged at 1672133183641 (16:26:23 GMT+0700 (Western Indonesia Time))
+[38;5;16m[AppiumDriver@092f][0m Removing session bf2bc68e-cd72-4c2c-a961-4de3c10c824f from our master session list
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Deleting UiAutomator2 session
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Deleting UiAutomator2 server session
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Matched '/' to command name 'deleteSession'
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/d0eddde9-e12d-41fa-a2cc-edb36d34c101] with no body
+[debug] [38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Got response with status 200: {"sessionId":"d0eddde9-e12d-41fa-a2cc-edb36d34c101","value":null}
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[debug] [38;5;96m[Logcat][0m Stopping logcat capture
+[debug] [38;5;64m[ADB][0m Removing forwarded port socket connection: 8200 
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 forward --remove tcp:8200'
+[38;5;32m[AndroidUiautomator2Driver@b9cb (bf2bc68e)][0m Restoring hidden api policy to the device default configuration
+[debug] [38;5;64m[ADB][0m Running '/Users/apple/Library/Android/sdk/platform-tools/adb -P 5037 -s ibbupjtcugqw8xx4 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[debug] [38;5;16m[AppiumDriver@092f][0m Responding to client with driver.closeApp() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f/appium/app/close [39m[32m200[39m [90m147 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[debug] [38;5;16m[AppiumDriver@092f][0m Event 'quitSessionFinished' logged at 1672133183829 (16:26:23 GMT+0700 (Western Indonesia Time))
+[debug] [38;5;16m[AppiumDriver@092f][0m Received response: null
+[debug] [38;5;16m[AppiumDriver@092f][0m But deleting session, so not returning
+[debug] [38;5;16m[AppiumDriver@092f][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/bf2bc68e-cd72-4c2c-a961-4de3c10c824f [39m[32m200[39m [90m192 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[debug] [38;5;16m[AppiumDriver@092f][0m There are no active sessions for cleanup
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event
