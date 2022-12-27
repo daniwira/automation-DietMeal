@@ -1,4 +1,4 @@
-# webdriverio-mobile
+# Automation DietMeal App
 
 How to Start
 
